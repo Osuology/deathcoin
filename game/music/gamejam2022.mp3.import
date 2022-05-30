@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/gamejam2022.mp3-6381aa1a242fb6cc4c203b4b3c5bdf2f.mp3str"
+
+[deps]
+
+source_file="res://music/gamejam2022.mp3"
+dest_files=[ "res://.import/gamejam2022.mp3-6381aa1a242fb6cc4c203b4b3c5bdf2f.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0
