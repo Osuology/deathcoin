@@ -48,6 +48,7 @@ func change_drop_amt(amount):
 func damage(amount):
 	state.damage(amount);
 	
-	var drop = Drop.instance(drop_amount);
+	var drop = Drop.instance();
+	drop.amount = drop_amount;
 	drop.position = position;
 	get_tree().get_nodes_in_group("DropContainer")[0].add_child(drop);
